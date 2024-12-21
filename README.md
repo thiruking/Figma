@@ -35,300 +35,572 @@ Figma
 ## CODE:
 ```
 
-home page
+/* iPhone 16 Pro Max - 1 */
+
+position: relative;
+width: 393px;
+height: 852px;
+
+background: #CAE780;
 
 
-// LOGIN
-color: #D2C95C;
- font-size: 24px;
- font-family: Lalezar;
- font-weight: 400;
- word-wrap: break-word
----
-// Login For Event Registration
-color: white;
- font-size: 16px;
- font-family: Itim;
- font-weight: 400;
- word-wrap: break-word
----
-// Password
-color: black;
- font-size: 16px;
- font-family: Zilla Slab;
- font-weight: 400;
- word-wrap: break-word
----
-// Email Address
-color: black;
- font-size: 16px;
- font-family: Zilla Slab;
- font-weight: 400;
- word-wrap: break-word
----
-// forgot password
-color: white;
- font-size: 18px;
- font-family: Zilla Slab;
- font-weight: 400;
- word-wrap: break-word
----
-// LOGIN
-color: black;
- font-size: 18px;
- font-family: Zilla Slab;
- font-weight: 400;
- word-wrap: break-word
----
-// project expo
-color: rgba(255, 255, 255, 0.84);
- font-size: 24px;
- font-family: Irish Grover;
- font-weight: 400;
- word-wrap: break-word
+/* image 1 */
 
-<div style="width: 100%; height: 100%; position: relative; background: white; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)">
-    <img style="width: 615px; height: 727px; left: -186px; top: -21px; position: absolute" src="https://via.placeholder.com/615x727" />
-    <div style="width: 171px; height: 50px; left: 60px; top: 227px; position: absolute; color: #D2C95C; font-size: 24px; font-family: Lalezar; font-weight: 400; word-wrap: break-word">LOGIN</div>
-    <div style="width: 231px; height: 30px; left: 59px; top: 256px; position: absolute; color: white; font-size: 16px; font-family: Itim; font-weight: 400; word-wrap: break-word">Login For Event Registration</div>
-    <div style="width: 217px; height: 52px; left: 73px; top: 320px; position: absolute; background: #D9D9D9"></div>
-    <div style="width: 217px; height: 52px; left: 73px; top: 391px; position: absolute; background: #D9D9D9"></div>
-    <div style="width: 67px; height: 28px; left: 148px; top: 408px; position: absolute; color: black; font-size: 16px; font-family: Zilla Slab; font-weight: 400; word-wrap: break-word">Password</div>
-    <div style="left: 132px; top: 338px; position: absolute; color: black; font-size: 16px; font-family: Zilla Slab; font-weight: 400; word-wrap: break-word">Email Address</div>
-    <div style="left: 199px; top: 459px; position: absolute; color: white; font-size: 18px; font-family: Zilla Slab; font-weight: 400; word-wrap: break-word">forgot password</div>
-    <div style="width: 109px; height: 36px; left: 121px; top: 526px; position: absolute; background: #D7D950"></div>
-    <div style="left: 154px; top: 533px; position: absolute; color: black; font-size: 18px; font-family: Zilla Slab; font-weight: 400; word-wrap: break-word">LOGIN</div>
-    <div style="left: 104px; top: 137px; position: absolute; color: rgba(255, 255, 255, 0.84); font-size: 24px; font-family: Irish Grover; font-weight: 400; word-wrap: break-word">project expo</div>
-    <img style="width: 349px; height: 60px; left: 11px; top: 22px; position: absolute" src="https://via.placeholder.com/349x60" />
-</div>
+position: absolute;
+width: 393px;
+height: 861px;
+left: 0px;
+top: -5px;
 
-event page
+background: url(image.png);
+border-radius: 0px;
+
+
+/* Rectangle 1 */
+
+position: absolute;
+width: 164px;
+height: 55px;
+left: 98px;
+top: 689px;
+
+background: rgba(0, 0, 0, 0.15);
+/* M3/Elevation Dark/2 */
+box-shadow: 0px 2px 6px 2px rgba(0, 0, 0, 0.15), 0px 1px 2px rgba(0, 0, 0, 0.3);
+
+
+/* Text */
+
+position: absolute;
+width: 154px;
+height: 74px;
+left: 150px;
+top: 707px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+
+color: #FFFFFF;
+
+
+
+/* REGISTER */
+
+position: absolute;
+width: 152px;
+height: 35px;
+left: 121px;
+top: 699px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+
+color: #DFD2D2;
+
+
+
+/* Rectangle 2 */
+
+position: absolute;
+width: 164px;
+height: 95.5px;
+left: 222px;
+top: 563px;
+
+background: #984A4A;
+
+
+/* image 2 */
+
+position: absolute;
+width: 226px;
+height: 40px;
+left: 78px;
+top: 7px;
+
+background: url(image.png);
+
+
+/* SPORTS EVENT */
+
+position: absolute;
+width: 240px;
+height: 32px;
+left: 96px;
+top: 212px;
+
+font-family: 'Inter';
+font-style: italic;
+font-weight: 900;
+font-size: 24px;
+line-height: 29px;
+
+color: #000000;
+
+opacity: 0.9;
+
+
+/* Rectangle 3 */
+
+position: absolute;
+width: 188px;
+height: 44px;
+left: 133px;
+top: 759px;
+
+background: rgba(0, 0, 0, 0.3);
+
+
+/* LOGIN */
+
+position: absolute;
+width: 213px;
+height: 39px;
+left: 191px;
+top: 764px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 29px;
+
+color: #A14545;
+
+
+
+/* Arrow 2 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 35.01px;
+height: 0px;
+left: 78px;
+top: 781px;
+
+border: 2px solid #FFFFFF;
+transform: rotate(-1.64deg);
+
+
+
+
+<div style="width: 393px; height: 852px; position: relative; background: #CAE780">
+    <img style="width: 393px; height: 861px; left: 0px; top: -5px; position: absolute" src="https://via.placeholder.com/393x861" />
+    <div style="width: 164px; height: 55px; left: 98px; top: 689px; position: absolute; background: rgba(0, 0, 0, 0.15); box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.30)"></div>
+    <div style="width: 154px; height: 74px; left: 150px; top: 707px; position: absolute; color: white; font-size: 24px; font-family: Inter; font-weight: 600; word-wrap: break-word"><br/></div>
+    <div style="width: 152px; height: 35px; left: 121px; top: 699px; position: absolute; color: #DFD2D2; font-size: 24px; font-family: Inter; font-weight: 600; word-wrap: break-word">REGISTER</div>
+    <div style="width: 164px; height: 95.50px; left: 222px; top: 563px; position: absolute; background: #984A4A"></div>
+    <img style="width: 226px; height: 40px; left: 78px; top: 7px; position: absolute" src="https://via.placeholder.com/226x40" />
+    <div style="width: 240px; height: 32px; left: 96px; top: 212px; position: absolute; opacity: 0.90; color: black; font-size: 24px; font-family: Inter; font-style: italic; font-weight: 900; word-wrap: break-word">SPORTS EVENT</div>
+    <div style="width: 188px; height: 44px; left: 133px; top: 759px; position: absolute; background: rgba(0, 0, 0, 0.30)"></div>
+    <div style="width: 213px; height: 39px; left: 191px; top: 764px; position: absolute; color: #A14545; font-size: 24px; font-family: Inter; font-weight: 900; word-wrap: break-word">LOGIN<br/></div>
+    <div style="width: 35.01px; height: 0px; left: 78px; top: 781px; position: absolute; transform: rotate(-1.64deg); transform-origin: 0 0; border: 2px white solid"></div>
+  </div>
+
+  /* iPhone 16 Pro Max - 2 */
+
+position: relative;
+width: 393px;
+height: 852px;
+
+background: #FFFFFF;
+
+
+/* image 3 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 393px;
+height: 262px;
+left: 0px;
+top: 598px;
+
+background: url(image.png);
+opacity: 0.7;
+border: 1px solid #000000;
+filter: blur(2px);
+
+
+/* image 5 */
+
+position: absolute;
+width: 393px;
+height: 322px;
+left: 0px;
+top: 0px;
+
+background: url(image.png);
+opacity: 0.7;
+filter: blur(2px);
+
+
+/* image 4 */
+
+position: absolute;
+width: 393px;
+height: 279px;
+left: 0px;
+top: 322px;
+
+background: url(image.png);
+opacity: 0.7;
+filter: blur(2px);
+
+
+/* SPORTS DAY EVENT */
+
+position: absolute;
+width: 297px;
+height: 34px;
+left: 71px;
+top: 12px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 29px;
+
+color: #A14F4F;
+
+
+
+/* CRICKET HOCKEY FOOTBALL KABBADI KARATE BOXING */
+
+position: absolute;
+width: 262px;
+height: 557px;
+left: calc(50% - 262px/2 + 40.5px);
+top: calc(50% - 557px/2 + 35.5px);
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 29px;
+
+color: #001AFF;
+
+border: 1px solid rgba(0, 0, 0, 0.2);
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
  
-// Data science Bowl
-color: black;
- font-size: 18px;
- font-family: Kadwa;
- font-weight: 400;
- word-wrap: break-word
----
-// 2k23 TECH EVENTS
-color: white;
- font-size: 24px;
- font-family: Irish Grover;
- font-weight: 400;
- word-wrap: break-word
----
-// Robotics Challenge
-color: black;
- font-size: 18px;
- font-family: Kadwa;
- font-weight: 400;
- word-wrap: break-word
----
-// TechTalk Series
-color: black;
- font-size: 18px;
- font-family: Kadwa;
- font-weight: 400;
- word-wrap: break-word
----
-// Code jam
-color: black;
- font-size: 18px;
- font-family: Kadwa;
- font-weight: 400;
- word-wrap: break-word
----
-// Mobile App Development
-color: black;
- font-size: 18px;
- font-family: Kadwa;
- font-weight: 400;
- word-wrap: break-word
----
-// Submit
-color: black;
- font-size: 20px;
- font-family: Kadwa;
- font-weight: 400;
- word-wrap: break-word
----
-// 3D printing
-color: black;
- font-size: 18px;
- font-family: Kadwa;
- font-weight: 400;
- word-wrap: break-word
-code <div style="width: 100%; height: 100%; position: relative; background: white">
-    <img style="width: 561px; height: 800px; left: -103px; top: -73px; position: absolute" src="https://via.placeholder.com/561x800" />
-    <div style="width: 258px; height: 52px; left: 48px; top: 402px; position: absolute; background: #D9D9D9"></div>
-    <div style="width: 258px; height: 56px; left: 48px; top: 94px; position: absolute; background: #D9D9D9"></div>
-    <div style="left: 102px; top: 110px; position: absolute; color: black; font-size: 18px; font-family: Kadwa; font-weight: 400; word-wrap: break-word">Data science Bowl</div>
-    <div style="left: 78px; top: 33px; position: absolute; color: white; font-size: 24px; font-family: Irish Grover; font-weight: 400; word-wrap: break-word">2k23 TECH EVENTS</div>
-    <div style="width: 258px; height: 52px; left: 48px; top: 174px; position: absolute; background: #D9D9D9"></div>
-    <div style="left: 95px; top: 182px; position: absolute; color: black; font-size: 18px; font-family: Kadwa; font-weight: 400; word-wrap: break-word">Robotics Challenge</div>
-    <div style="width: 258px; height: 52px; left: 48px; top: 326px; position: absolute; background: #D9D9D9"></div>
-    <div style="width: 258px; height: 52px; left: 51px; top: 250px; position: absolute; background: #D9D9D9"></div>
-    <div style="width: 134px; height: 18px; left: 113px; top: 262px; position: absolute; color: black; font-size: 18px; font-family: Kadwa; font-weight: 400; word-wrap: break-word">TechTalk Series</div>
-    <div style="left: 137px; top: 334px; position: absolute; color: black; font-size: 18px; font-family: Kadwa; font-weight: 400; word-wrap: break-word">Code jam</div>
-    <div style="left: 71px; top: 412px; position: absolute; color: black; font-size: 18px; font-family: Kadwa; font-weight: 400; word-wrap: break-word">Mobile App Development</div>
-    <div style="width: 258px; height: 52px; left: 48px; top: 482px; position: absolute; background: #D9D9D9"></div>
-    <div style="width: 152px; height: 46px; left: 108px; top: 556px; position: absolute; background: #D6D93C"></div>
-    <div style="left: 142px; top: 562px; position: absolute; color: black; font-size: 20px; font-family: Kadwa; font-weight: 400; word-wrap: break-word">Submit</div>
-    <div style="left: 127px; top: 490px; position: absolute; color: black; font-size: 18px; font-family: Kadwa; font-weight: 400; word-wrap: break-word">3D printing</div>
-</div>
+<div style="width: 393px; height: 852px; position: relative; background: white">
+    <img style="width: 393px; height: 262px; left: 0px; top: 598px; position: absolute; opacity: 0.70; box-shadow: 4px 4px 4px; border: 1px black solid; filter: blur(4px)" src="https://via.placeholder.com/393x262" />
+    <img style="width: 393px; height: 322px; left: 0px; top: 0px; position: absolute; opacity: 0.70; box-shadow: 4px 4px 4px; filter: blur(4px)" src="https://via.placeholder.com/393x322" />
+    <img style="width: 393px; height: 279px; left: 0px; top: 322px; position: absolute; opacity: 0.70; box-shadow: 4px 4px 4px; filter: blur(4px)" src="https://via.placeholder.com/393x279" />
+    <div style="width: 297px; height: 34px; left: 71px; top: 12px; position: absolute; color: #A14F4F; font-size: 24px; font-family: Inter; font-weight: 900; word-wrap: break-word">SPORTS DAY EVENT</div>
+    <div style="width: 262px; height: 557px; left: 106px; top: 183px; position: absolute"><span style="color: #001AFF; font-size: 24px; font-family: Inter; font-weight: 900; word-wrap: break-word">CRICKET<br/></span><span style="color: #001AFF; font-size: 24px; font-family: Inter; font-weight: 900; word-wrap: break-word"><br/><br/></span><span style="color: #001AFF; font-size: 24px; font-family: Inter; font-weight: 900; word-wrap: break-word">HOCKEY<br/></span><span style="color: #001AFF; font-size: 24px; font-family: Inter; font-weight: 900; word-wrap: break-word"><br/><br/></span><span style="color: #001AFF; font-size: 24px; font-family: Inter; font-weight: 900; word-wrap: break-word">FOOTBALL<br/></span><span style="color: #001AFF; font-size: 24px; font-family: Inter; font-weight: 900; word-wrap: break-word"><br/><br/></span><span style="color: #001AFF; font-size: 24px; font-family: Inter; font-weight: 900; word-wrap: break-word">KABBADI<br/></span><span style="color: #001AFF; font-size: 24px; font-family: Inter; font-weight: 900; word-wrap: break-word"><br/><br/></span><span style="color: #001AFF; font-size: 24px; font-family: Inter; font-weight: 900; word-wrap: break-word">KARATE<br/></span><span style="color: #001AFF; font-size: 24px; font-family: Inter; font-weight: 900; word-wrap: break-word"><br/><br/></span><span style="color: #001AFF; font-size: 24px; font-family: Inter; font-weight: 900; word-wrap: break-word">BOXING</span></div>
+  </div>
+
+  /* iPhone 16 - 1 */
+
+box-sizing: border-box;
+
+position: relative;
+width: 393px;
+height: 852px;
+
+background: #FFFFFF;
+border: 1px solid #000000;
+
+
+/* image 6 */
+
+position: absolute;
+width: 593px;
+height: 894px;
+left: -190px;
+top: -42px;
+
+background: url(image.png);
+
+
+/* REGISTERATION FORM */
+
+position: absolute;
+width: 286px;
+height: 31px;
+left: 54px;
+top: 34px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 29px;
+
+color: #000000;
 
 
 
-registration form
+/* NAME : */
+
+position: absolute;
+width: 133px;
+height: 28px;
+left: 23px;
+top: 195px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 29px;
+
+color: #000000;
 
 
-// Mobile Number
-color: black;
- font-size: 18px;
- font-family: Kadwa;
- font-weight: 400;
- word-wrap: break-word
----
-// REGISTRATION FORM
-color: white;
- font-size: 24px;
- font-family: Irish Grover;
- font-weight: 400;
- word-wrap: break-word
----
-//         Full Name
-color: black;
- font-size: 18px;
- font-family: Kadwa;
- font-weight: 400;
- word-wrap: break-word
----
-// Department
-color: black;
- font-size: 18px;
- font-family: Kadwa;
- font-weight: 400;
- word-wrap: break-word
----
-// College
-color: black;
- font-size: 18px;
- font-family: Kadwa;
- font-weight: 400;
- word-wrap: break-word
----
-// Registration Number
-color: black;
- font-size: 18px;
- font-family: Kadwa;
- font-weight: 400;
- word-wrap: break-word
----
-// Email Address
-color: black;
- font-size: 18px;
- font-family: Kadwa;
- font-weight: 400;
- word-wrap: break-word
----
-//      Register
-color: black;
- font-size: 20px;
- font-family: Kadwa;
- font-weight: 400;
- word-wrap: break-word
 
-<div style="width: 100%; height: 100%; position: relative; background: white; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border: 1px rgba(0, 0, 0, 0.20) solid">
-    <img style="width: 561px; height: 800px; left: -103px; top: -73px; position: absolute" src="https://via.placeholder.com/561x800" />
-    <div style="width: 258px; height: 52px; left: 48px; top: 402px; position: absolute; background: #D9D9D9"></div>
-    <div style="left: 112px; top: 411px; position: absolute; color: black; font-size: 18px; font-family: Kadwa; font-weight: 400; word-wrap: break-word">Mobile Number</div>
-    <div style="width: 258px; height: 56px; left: 48px; top: 94px; position: absolute; background: #D9D9D9"></div>
-    <div style="left: 78px; top: 33px; position: absolute; color: white; font-size: 24px; font-family: Irish Grover; font-weight: 400; word-wrap: break-word">REGISTRATION FORM</div>
-    <div style="width: 258px; height: 52px; left: 48px; top: 174px; position: absolute; background: #D9D9D9"></div>
-    <div style="width: 258px; height: 52px; left: 48px; top: 326px; position: absolute; background: #D9D9D9"></div>
-    <div style="width: 258px; height: 52px; left: 51px; top: 250px; position: absolute; background: #D9D9D9"></div>
-    <div style="width: 258px; height: 52px; left: 48px; top: 482px; position: absolute; background: #D9D9D9"></div>
-    <div style="width: 152px; height: 46px; left: 109px; top: 554px; position: absolute; background: #D6D93C"></div>
-    <div style="width: 170px; height: 28px; left: 100px; top: 108px; position: absolute; color: black; font-size: 18px; font-family: Kadwa; font-weight: 400; word-wrap: break-word">        Full Name</div>
-    <div style="left: 123px; top: 182px; position: absolute; color: black; font-size: 18px; font-family: Kadwa; font-weight: 400; word-wrap: break-word">Department</div>
-    <div style="left: 132px; top: 260px; position: absolute; color: black; font-size: 18px; font-family: Kadwa; font-weight: 400; word-wrap: break-word">College</div>
-    <div style="left: 100px; top: 336px; position: absolute; color: black; font-size: 18px; font-family: Kadwa; font-weight: 400; word-wrap: break-word">Registration Number</div>
-    <div style="left: 100px; top: 490px; position: absolute; color: black; font-size: 18px; font-family: Kadwa; font-weight: 400; word-wrap: break-word">Email Address</div>
-    <div style="width: 121px; height: 26px; left: 126px; top: 563px; position: absolute; color: black; font-size: 20px; font-family: Kadwa; font-weight: 400; word-wrap: break-word">     Register</div>
-</div>
+/* REF NO : */
 
-contact us
+position: absolute;
+width: 189px;
+height: 26px;
+left: 23px;
+top: 267px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 29px;
+
+color: #000000;
 
 
-// CONTACT US FOR MORE DETAILS
-color: white;
- font-size: 19px;
- font-family: Kadwa;
- font-weight: 400;
- word-wrap: break-word
----
-// saveetha@gmail.com
-color: white;
- font-size: 15px;
- font-family: Kadwa;
- font-weight: 400;
- word-wrap: break-word
----
-// organizers2k23@@gmail.com
-color: white;
- font-size: 15px;
- font-family: Kadwa;
- font-weight: 400;
- word-wrap: break-word
----
-// 9600937042
-color: white;
- font-size: 14px;
- font-family: Kadwa;
- font-weight: 400;
- word-wrap: break-word
----
-// 7708547042
-color: white;
- font-size: 14px;
- font-family: Kadwa;
- font-weight: 400;
- word-wrap: break-word
----
-// SAVEETHA ENGINEERING (AUTONOMOUS) COLLEGE
-color: white;
- font-size: 13px;
- font-family: Kadwa;
- font-weight: 400;
- word-wrap: break-word
----
-// Thandalam,Chennai-606210
-color: white;
- font-size: 13px;
- font-family: Kadwa;
- font-weight: 400;
- word-wrap: break-word
----
-// www.saveetha.ac.in
-color: white;
- font-size: 14px;
- font-family: Kadwa;
- font-weight: 400;
- word-wrap: break-word
 
-<div style="width: 100%; height: 100%; position: relative; background: white">
-    <img style="width: 600px; height: 698px; left: -203px; top: 0px; position: absolute" src="https://via.placeholder.com/600x698" />
-    <div style="left: 11px; top: 99px; position: absolute; color: white; font-size: 19px; font-family: Kadwa; font-weight: 400; word-wrap: break-word">CONTACT US FOR MORE DETAILS</div>
-    <div style="width: 249px; height: 24px; left: 72px; top: 146px; position: absolute; color: white; font-size: 15px; font-family: Kadwa; font-weight: 400; word-wrap: break-word">saveetha@gmail.com</div>
-    <div style="left: 73px; top: 170px; position: absolute; color: white; font-size: 15px; font-family: Kadwa; font-weight: 400; word-wrap: break-word">organizers2k23@@gmail.com</div>
-    <div style="left: 113px; top: 221px; position: absolute; color: white; font-size: 14px; font-family: Kadwa; font-weight: 400; word-wrap: break-word">9600937042</div>
-    <div style="left: 117px; top: 200px; position: absolute; color: white; font-size: 14px; font-family: Kadwa; font-weight: 400; word-wrap: break-word">7708547042</div>
-    <div style="width: 357px; left: 11px; top: 368px; position: absolute; color: white; font-size: 13px; font-family: Kadwa; font-weight: 400; word-wrap: break-word">SAVEETHA ENGINEERING (AUTONOMOUS) COLLEGE</div>
-    <div style="left: 63px; top: 394px; position: absolute; color: white; font-size: 13px; font-family: Kadwa; font-weight: 400; word-wrap: break-word">Thandalam,Chennai-606210</div>
-    <div style="left: 95px; top: 609px; position: absolute; color: white; font-size: 14px; font-family: Kadwa; font-weight: 400; word-wrap: break-word">www.saveetha.ac.in</div>
-</div>
+/* EMAIL : */
 
+position: absolute;
+width: 145px;
+height: 37px;
+left: 23px;
+top: 337px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 29px;
+
+color: #000000;
+
+
+
+/* PHONE: */
+
+position: absolute;
+width: 107px;
+height: 22px;
+left: 23px;
+top: 403px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 29px;
+
+color: #000000;
+
+
+
+/* SPORTS CHOICE */
+
+position: absolute;
+width: 146px;
+height: 42px;
+left: calc(50% - 146px/2 + 0.5px);
+top: 524px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 29px;
+
+color: #000E0E;
+
+
+
+/* Rectangle 4 */
+
+position: absolute;
+width: 97px;
+height: 24px;
+left: 129px;
+top: 199px;
+
+background: #D9D9D9;
+
+
+/* Rectangle 5 */
+
+position: absolute;
+width: 100px;
+height: 26px;
+left: 139px;
+top: 267px;
+
+background: #D9D9D9;
+
+
+/* Rectangle 6 */
+
+position: absolute;
+width: 107px;
+height: 27px;
+left: 132px;
+top: 339px;
+
+background: #D9D9D9;
+
+
+/* Rectangle 7 */
+
+position: absolute;
+width: 107px;
+height: 28px;
+left: 132px;
+top: 400px;
+
+background: #D9D9D9;
+
+
+/* Rectangle 8 */
+
+position: absolute;
+width: 100px;
+height: 66px;
+left: 126px;
+top: 611px;
+
+background: #D9D9D9;
+
+
+/* Rectangle 9 */
+
+position: absolute;
+width: 190px;
+height: 52px;
+left: 80px;
+top: 746px;
+
+background: #623030;
+
+
+/* REGISTER */
+
+position: absolute;
+width: 155px;
+height: 36px;
+left: 111px;
+top: 762px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 29px;
+
+color: #FF0000;
+
+
+
+/* Star 1 */
+
+position: absolute;
+width: 59px;
+height: 48px;
+left: 54px;
+top: 524px;
+
+background: #432121;
+
+<div style="width: 393px; height: 852px; position: relative; background: white; border: 1px black solid">
+    <img style="width: 593px; height: 894px; left: -190px; top: -42px; position: absolute" src="https://via.placeholder.com/593x894" />
+    <div style="width: 286px; height: 31px; left: 54px; top: 34px; position: absolute; color: black; font-size: 24px; font-family: Inter; font-weight: 900; word-wrap: break-word">REGISTERATION<br/>                                      FORM</div>
+    <div style="width: 133px; height: 28px; left: 23px; top: 195px; position: absolute; color: black; font-size: 24px; font-family: Inter; font-weight: 900; word-wrap: break-word">NAME :</div>
+    <div style="width: 189px; height: 26px; left: 23px; top: 267px; position: absolute; color: black; font-size: 24px; font-family: Inter; font-weight: 900; word-wrap: break-word">REF NO :</div>
+    <div style="width: 145px; height: 37px; left: 23px; top: 337px; position: absolute; color: black; font-size: 24px; font-family: Inter; font-weight: 900; word-wrap: break-word">EMAIL :</div>
+    <div style="width: 107px; height: 22px; left: 23px; top: 403px; position: absolute; color: black; font-size: 24px; font-family: Inter; font-weight: 900; word-wrap: break-word">PHONE:<br/></div>
+    <div style="width: 146px; height: 42px; left: 124px; top: 524px; position: absolute; color: #000E0E; font-size: 24px; font-family: Inter; font-weight: 900; word-wrap: break-word">SPORTS CHOICE</div>
+    <div style="width: 97px; height: 24px; left: 129px; top: 199px; position: absolute; background: #D9D9D9"></div>
+    <div style="width: 100px; height: 26px; left: 139px; top: 267px; position: absolute; background: #D9D9D9"></div>
+    <div style="width: 107px; height: 27px; left: 132px; top: 339px; position: absolute; background: #D9D9D9"></div>
+    <div style="width: 107px; height: 28px; left: 132px; top: 400px; position: absolute; background: #D9D9D9"></div>
+    <div style="width: 100px; height: 66px; left: 126px; top: 611px; position: absolute; background: #D9D9D9"></div>
+    <div style="width: 190px; height: 52px; left: 80px; top: 746px; position: absolute; background: #623030"></div>
+    <div style="width: 155px; height: 36px; left: 111px; top: 762px; position: absolute; color: #FF0000; font-size: 24px; font-family: Inter; font-weight: 900; word-wrap: break-word">REGISTER</div>
+  </div>
+
+  /* iPhone 16 - 2 */
+
+position: relative;
+width: 393px;
+height: 852px;
+
+background: #FFFFFF;
+
+
+/* image 7 */
+
+position: absolute;
+width: 626px;
+height: 417px;
+left: -99px;
+top: 445px;
+
+background: url(image.png);
+
+
+/* THANK YOU */
+
+position: absolute;
+width: 279px;
+height: 82px;
+left: 74px;
+top: 116px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 36px;
+line-height: 44px;
+
+color: #000000;
+
+
+
+/* CONTACT US : 787867678 EMAIL ID : THFEGW@GMAIL.COM ADDRESS :THANDALAM SAVEEETHA */
+
+position: absolute;
+width: 347px;
+height: 134px;
+left: 18px;
+top: 219px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 16px;
+line-height: 19px;
+
+color: #000000;
+
+<div style="width: 393px; height: 852px; position: relative; background: white">
+    <img style="width: 626px; height: 417px; left: -99px; top: 445px; position: absolute" src="https://via.placeholder.com/626x417" />
+    <div style="width: 279px; height: 82px; left: 74px; top: 116px; position: absolute; color: black; font-size: 36px; font-family: Inter; font-weight: 900; word-wrap: break-word">THANK YOU</div>
+    <div style="width: 347px; height: 134px; left: 18px; top: 219px; position: absolute; color: black; font-size: 16px; font-family: Inter; font-weight: 900; word-wrap: break-word">CONTACT US : 787867678<br/><br/>EMAIL ID : THFEGW@GMAIL.COM<br/><br/>ADDRESS :THANDALAM SAVEEETHA</div>
+  </div>
 ```
 
 ## OUTPUT:
