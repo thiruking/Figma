@@ -332,7 +332,8 @@ color: white;
 ```
 
 ## OUTPUT:
-![alt text](<../Screenshot 2024-12-19 225336.png>)
+![Screenshot 2024-12-20 132440](https://github.com/user-attachments/assets/fcd9b012-c779-4d9e-9ee6-fa73609f064d)
+
 
 ## RESULT:
 The program to design, develop and deploy a web application for event registration is completed successfully.
